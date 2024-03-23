@@ -39,7 +39,7 @@ debug at #2: outliers <- array(TRUE, dim = dim(x))
 Browse[2]> n
 Error: object 'x' not found
 
-> z <- matrix(rnorm(100), ncol=5)
+> x <- matrix(rnorm(100), ncol=5)
 
 > tukey_multiple(x)
 debugging in: tukey_multiple(x)
